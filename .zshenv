@@ -23,7 +23,7 @@ fi
 if [ "$PAGER" = "lv" ]; then
     export LV="-c -l"
 else
-    alisa lv="$PAGER"
+    alias lv="$PAGER"
 fi
 
 if type ggrep > /dev/null 2>&1; then
