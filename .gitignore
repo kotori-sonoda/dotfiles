@@ -1,6 +1,7 @@
 # ignore all
 /*
 /.*
+/bin/*~
 
 #do not ignore
 !/.gitignore
