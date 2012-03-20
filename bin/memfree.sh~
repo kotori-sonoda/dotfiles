@@ -1,4 +1,0 @@
-#!/bin/sh
-RAM=`cat /proc//meminfo | grep MemFree | awk -F' ' '{print $2}'`
-echo -n "${RAM}kb/ram"
-
