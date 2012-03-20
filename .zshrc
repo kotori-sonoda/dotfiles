@@ -70,22 +70,22 @@ autoload zed
 
 # aliases
 if ls --help | grep -q -- --color; then
-    alias ls="ls --color=auto"
+  alias ls="ls --color=auto"
 fi
 alias ll="ls -l"
 alias la="ls -a"
 alias emacs="emacs -nw"
-alias aps="aptitude serarch"
+alias aps="aptitude search"
 alias api="apt-get install"
 
 # for screen
 case ${TERM} in
   screen*)
     preexec() {
-        echo -ne "\ek#${1%% *}\e\\"
+      echo -ne "\ek#${1%% *}\e\\"
     }
     precmd() {
-        echo -ne "\ek$(basename $(pwd))\e\\"
+      echo -ne "\ek$(basename $(pwd))\e\\"
     }
 esac
 
