@@ -6,6 +6,7 @@
 #do not ignore
 !/.gitignore
 !/.zshrc
+!/.zshenv
 !/.screenrc
 !/bin
 
