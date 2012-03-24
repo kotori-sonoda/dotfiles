@@ -2,6 +2,7 @@
 /*
 /.*
 /bin/*~
+/.emacs.d/*
 
 #do not ignore
 !/.gitignore
@@ -9,4 +10,5 @@
 !/.zshenv
 !/.screenrc
 !/bin
-
+!/.emacs.d
+!/.emacs.d/init.el
