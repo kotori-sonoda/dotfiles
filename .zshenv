@@ -43,3 +43,4 @@ if grep --help | grep -q -- --color; then
 fi
 
 export EDITOR="emacsclient -c"
+export ALTERNATE_EDITOR="/usr/bin/emacs -nw"
