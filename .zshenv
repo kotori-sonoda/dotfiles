@@ -42,7 +42,4 @@ if grep --help | grep -q -- --color; then
   GREP_OPTIONS="--color=auto $GREP_OPTIONS"
 fi
 
-export EDITOR=vim
-if ! type vim > /dev/null 2>&1; then
-  alias vim=vi
-fi
+export EDITOR="emacsclient -c"

@@ -74,7 +74,7 @@ if ls --help | grep -q -- --color; then
 fi
 alias ll="ls -l"
 alias la="ls -a"
-alias emacs="emacs -nw"
+alias emacs="emacsclient -c"
 alias aps="aptitude search"
 alias api="apt-get install"
 
